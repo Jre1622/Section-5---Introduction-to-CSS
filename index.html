@@ -3,7 +3,10 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!--Using the Link tag allows us to link the file with CSS - the relationship is a stylesheet  -->
 		<link rel="stylesheet" href="style.css" />
+
 		<title>Learning CSS</title>
 	</head>
 	<body>
@@ -12,7 +15,7 @@
 		<!-- Inline Styling -->
 		<p style="background-color: rgb(170, 153, 186)">This should have a bluish color as the background</p>
 
-		<!-- internal Styling -->
+		<!-- Internal Styling -->
 		<style>
 			li {
 				background-color: burlywood;
@@ -22,5 +25,9 @@
 			<li>This should</li>
 			<li>have a burlywood backgound</li>
 		</ul>
+
+		<!--The priority of CSS goes INLINE - INTERNAL - EXTERNAL -->
+		<!-- Also #ID overrides .Class which overrides p -->
+		<!-- !important overides all but should never be used -->
 	</body>
 </html>
