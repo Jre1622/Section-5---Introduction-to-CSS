@@ -1,3 +1,26 @@
+/* Heading selectors - this only selects the h1 tags in my HTML */
 h1 {
-	background-color: aqua;
+	background-color: #ea7070;
+}
+
+/* CLASS selectors use the period symbol . A class can be added to any HTML element */
+.test {
+	background-color: #601111;
+}
+
+/* ID selector using the hashtag # this is used for specific ID attributes
+the ID can only be applied to a single element */
+#testingID {
+	background-color: #164f71;
+}
+
+/* We can also select ATTRIBUTES from HTML elements like the p
+attribute "draggable" */
+p[draggable] {
+	background-color: #69ca23;
+}
+
+/* We can go farther and grab them by the attribute value */
+p[draggable="false"] {
+	background-color: #719de9;
 }
