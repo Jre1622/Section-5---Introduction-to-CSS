@@ -20,7 +20,12 @@ p[draggable] {
 	background-color: #69ca23;
 }
 
-/* We can go farther and grab them by the attribute value */
+/* We can go farther and grab them by the attribute value in an element tag */
 p[draggable="false"] {
 	background-color: #719de9;
+}
+
+/* the asterix tag * selects everything in the HTML to edit, it is easily overwritten by everything */
+* {
+	background-color: #6a4343;
 }
